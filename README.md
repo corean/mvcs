@@ -6,6 +6,12 @@
 [Laravel 서비스 클래스에서 POPO 인자 사용하기 | cr.lgl's blog](https://ceobe.dev/laravel-popo-request-for-service-layer/)를 읽어보니 실제 구현해보면서 익혀보기로 함.
 "코드를 치지 않고, 눈으로 읽으면 전혀 도움이 되지 않는다" 것을 이미 알고 있었다.
 
+[Blog/PostController.php at master · AsgardCms/Blog](https://github.com/AsgardCms/Blog/blob/master/Http/Controllers/Admin/PostController.php)
+
+
+- repository 는 Model 의 wrapper 처럼 감싸서 사용. 
+- Request 객체가 DTO(Data Transfer Object)로써 계층간 이동
+
 ## 결론 
 소형 프로젝트에는 어울리지 않으나, 중형 프로젝트에 어울리는 디자인 패턴이다.
 
